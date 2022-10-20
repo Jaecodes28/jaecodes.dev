@@ -1,11 +1,51 @@
+*{
+    background-color: black;
+    color: white;
+}
+
 #header {
-    display: inline-block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1500;
+    padding: 37px 0 20px;
+    transition: transform .4s ease-in-out, padding.5s;
 }
 
-.nav1 {
-
+.container{
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 3.5%;
 }
 
-.nav 2 {
-    
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left, .header_right {
+    pointer-events: auto;
+}
+
+.hero_title {
+    mix-blend-mode: difference;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1.13;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin: 2% auto 0;
+    max-width: 1360px;
+}
+
+.title_line {
+    display: block;
+    overflow-y: hidden;
+    line-height: 1;
+    margin: 0 auto;
+    z-index: 10;
 }
