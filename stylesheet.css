@@ -3,49 +3,28 @@
     color: white;
 }
 
-#header {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    z-index: 1500;
-    padding: 37px 0 20px;
-    transition: transform .4s ease-in-out, padding.5s;
+header{
+    padding: 10px;
+    margin: 60px;
 }
 
-.container{
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 3.5%;
+nav{
+    display: inline;
+    position: static;
 }
 
-.header_inner {
+.logo{
+    float: left;
+}
+
+.hamburger {
+    float: right;
+}
+
+.intro {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header_left, .header_right {
-    pointer-events: auto;
-}
-
-.hero_title {
-    mix-blend-mode: difference;
-    font-size: 80px;
-    font-weight: 400;
-    line-height: 1.13;
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    margin: 2% auto 0;
-    max-width: 1360px;
-}
-
-.title_line {
-    display: block;
-    overflow-y: hidden;
-    line-height: 1;
-    margin: 0 auto;
-    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
 }
