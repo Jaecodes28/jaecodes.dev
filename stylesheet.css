@@ -1,11 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    
+}
+
 body {
     background-color: #191919;
     color: white;
-    min-height: 100vh;
-    margin: 0;
-    display: flex;
     flex-direction: column;
     font-family: 'Source Code Pro', monospace;
+    min-height: 100vh;
 }
 
 .page {
@@ -13,6 +21,13 @@ body {
     flex-direction: column;
     display: flex;
     flex: 1;
+}
+
+.section1 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
@@ -37,7 +52,6 @@ a:link , a:visited {
 .logo {
     font-size: 34px;
     padding-left: 100px;
-
 }
 
 .hero {
@@ -52,4 +66,33 @@ a:link , a:visited {
     align-items: center;
     justify-content: center;
     display: flex;
+    margin-bottom: 20px;
+    padding: 20px;
 }
+
+/* section 2 css starts here */
+
+.section2 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.About  {
+    font-size: 72px;
+    margin: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.p1 , .p2 {
+    border-left: solid 6px grey;
+    padding-left: 20px;
+    font-size: 24px;
+    margin: 70px;
+    padding: 30px;
+}
+
+/* section 3 css starts here */
